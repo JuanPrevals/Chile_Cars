@@ -1,0 +1,153 @@
+<!DOCTYPE html <html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autores del documeto -->
+    <meta name="author" content="yoicergarcia@liceovvh.cl">
+    <meta name="author" content="juanprevals@liceovvh.cl">
+    <!-- Titulo  -->
+    <title>Chile Cars</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="static/images/logo.png" alt="Logo" width="100px" height="100px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mas Informacion
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <div class="dropdown"> <a href="#"
+                        class="d-flex align-items-center text-white text-decoration-none dropdown-toggle mb-3 ml-4 ms-5 "
+                        data-bs-toggle="dropdown" aria-expanded="false"> <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt=""
+                            width="32" height="32" class=""></a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center mt-5">
+        <form class="d-flex w-50 " role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+
+    </div>
+
+    <main class="contaiener d-flex">
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-white text-dark" style="width: 280px;">
+
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item"> <a href="#" class="nav-link active" aria-current="page"> <svg
+                            class="bi pe-none me-2" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="#home"></use>
+                        </svg>
+                        <i class="bi bi-car-front-fill"></i> Marca
+                    </a> </li>
+                <li> <a href="#" class="nav-link text-dark"> <svg class="bi pe-none me-2" width="16" height="16"
+                            aria-hidden="true">
+                            <use xlink:href="#speedometer2"></use>
+                        </svg>
+                        Categoria de Veichulo
+                    </a> </li>
+                <li> <a href="#" class="nav-link text-dark"> <svg class="bi pe-none me-2" width="16" height="16"
+                            aria-hidden="true">
+                            <use xlink:href="#table"></use>
+                        </svg>
+                        Año
+                    </a> </li>
+                <li> <a href="#" class="nav-link text-dark"> <svg class="bi pe-none me-2" width="16" height="16"
+                            aria-hidden="true">
+                            <use xlink:href="#grid"></use>
+                        </svg>
+                        Kilometraje
+                    </a> </li>
+                <li> <a href="#" class="nav-link text-dark"> <svg class="bi pe-none me-2" width="16" height="16"
+                            aria-hidden="true">
+                            <use xlink:href="#people-circle"></use>
+                        </svg>
+                        Region
+                    </a> </li>
+            </ul>
+            <hr>
+
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="static/images/CHEVROLET-GROOVE-amskcl.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="static/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
