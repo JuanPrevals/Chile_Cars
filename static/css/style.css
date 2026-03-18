@@ -1,5 +1,10 @@
-svg{
+svg {
     background-color: black;
 
 }
 
+@media (min-width: 768px) {
+    .filtros {
+        width: 280px;
+    }
+}
